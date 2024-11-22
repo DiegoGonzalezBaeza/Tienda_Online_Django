@@ -238,6 +238,11 @@ El principio DRY (Don't Repeat Yourself) se aplica utilizando `base.html` como p
 
 ## 8. Probar el Proyecto
 
+0. **Crea un superusuario:**
+   ```bash
+   python manage.py createsuperuser
+   ```
+
 1. **Ejecuta el servidor de desarrollo:**
    ```bash
    python manage.py runserver
